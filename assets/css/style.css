@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.top-bar {
+    width: 100%;
+    height: 120px;
+}
+.top-bar button {
+    float: right;
+    background-color: #A0D468;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border: none;
+}
+.main-menu {
+    width: 750px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    /* background-color:rgb(128, 55, 55); */
+    position: relative;
+}
+.main-menu img{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
+}
+.main-menu .input {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    /* background-color: indigo */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.main-menu .input input{
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    width: 90%;
+    height: 30px;
+    float: left;
+}
+.main-menu .input input:focus{
+    border: none;
+    outline: none;
+}
+.main-menu .input button{
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: #A0D468;
+}
+.main-menu .input i{
+    font-size: 18px;
+}
+.main-menu .input button:hover{
+    cursor: pointer;
+}
+.back-image {
+    margin-top: 20px;
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(rgba(238, 238, 238, 0.3), rgb(238, 238, 238, .3)), url(../image/sundarban_long.jpg);
+    background-size: cover;
+    position: relative;
+}
+.back-image .icon {
+    width: 500px;
+    height: 200px;
+    /* background-color: greenyellow; */
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.back-image .icon button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 40px 20px;
+    border: none;
+}
+.back-image .icon button :hover {
+    transform: scale(1.5);
+}
+.back-image .icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
